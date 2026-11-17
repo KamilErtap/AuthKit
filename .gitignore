@@ -1,0 +1,31 @@
+# Maven build outputs
+target/
+**/target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Secrets and signing keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Logs
+*.log
+logs/
